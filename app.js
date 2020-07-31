@@ -4,21 +4,21 @@ console.log("it's working")
 
 // get given an array of strings
 const input = [
-    'richmond,january, 11211',
-    'richmond,febuary, 12541',
-    'richmond,march, 13211',
-    'richmond,april, 14781',
-    'richmond,may, 15248',
-    'richmond,june, 16923',
-    'richmond,july, 17283',
-    'richmond,august, 18236',
-    'richmond,september, 19135',
-    'richmond,october, 10123',
-    'richmond,november, 13245',
-    'richmond,december, 15235'
+    'richmond, january, 11211',
+    'richmond, febuary, 12541',
+    'richmond, march, 13211',
+    'richmond, april, 14781',
+    'richmond, may, 15248',
+    'richmond, june, 16923',
+    'richmond, july, 17283',
+    'richmond, august, 18236',
+    'richmond, september, 19135',
+    'richmond, october, 10123',
+    'richmond, november, 13245',
+    'richmond, december, 15235'
 ]
 
-// desired output an array with the name of office(richmon), total cups of coffee, cups per month
+// desired output an array with the name of office(richmond), total cups of coffee, cups per month
 
 // money
 // date, revenue, currency, cost, currency

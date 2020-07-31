@@ -1,0 +1,23 @@
+{
+  "name": "xero",
+  "version": "1.0.0",
+  "description": "I gave the interview questions more thought after the test and here are my answers when given more time.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelLingMel/xero-interview-questions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelLingMel/xero-interview-questions/issues"
+  },
+  "homepage": "https://github.com/samuelLingMel/xero-interview-questions#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
