@@ -4,14 +4,16 @@ const coffee = function(input) {
   
   input.forEach( ele => {
     const nameMonthAmount = ele.split(',');
-    if (offices[`${nameMonthAmount[0]}`]) {
-      offices[`${nameMonthAmount[0]}`].cupsOfCoffee += Number(nameMonthAmount[2]);  
-      offices[`${nameMonthAmount[0]}`].months += 1;  
+    const officeName = nameMonthAmount[0]
+    const cupsOfCoffee = Number(nameMonthAmount[2]);
+    if (offices[`${officeName}`]) {
+      offices[`${officeName}`].cupsOfCoffee += cupsOfCoffee;  
+      offices[`${officeName}`].months += 1;  
     } else {
-      offices[`${nameMonthAmount[0]}`] = {};  
-      offices[`${nameMonthAmount[0]}`].name = nameMonthAmount[0];  
-      offices[`${nameMonthAmount[0]}`].cupsOfCoffee = Number(nameMonthAmount[2]);  
-      offices[`${nameMonthAmount[0]}`].months = 1;  
+      offices[`${officeName}`] = {};  
+      offices[`${officeName}`].name = officeName;  
+      offices[`${officeName}`].cupsOfCoffee = cupsOfCoffee;  
+      offices[`${officeName}`].months = 1;  
     }
   })
 

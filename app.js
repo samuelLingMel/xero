@@ -24,7 +24,7 @@ const input = [
 // date, revenue, currency, cost, currency
 const moneyInputOne = '20-06-2019,10020,NZD,8000,NZD'
 
-// conversion rate for a time of day
+// conversion rate for a day
 const moneyInputTwo = ['20-06-2019,1.05,AUD']
 
 // output number to 2 decimals places
