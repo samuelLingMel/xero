@@ -1,5 +1,5 @@
 
-const money = require('./money.js')
+const money = require('./money.js');
 
 test('first test revenues no exchange rates', () => {
   const dateRevenueCost = [
@@ -7,10 +7,10 @@ test('first test revenues no exchange rates', () => {
     '21-06-2019,12720,NZD,8503,NZD',
     '22-06-2019,11473,NZD,8372,NZD',
   ]
-  const exchangeRate = []
+  const exchangeRate = [];
   expect(
     money(dateRevenueCost, exchangeRate)
-  ).toEqual("9415.00")
+  ).toEqual("9415.00");
 })
 
 
@@ -23,7 +23,7 @@ test('one day revenue and exchange rate', () => {
   ]
   expect(
     money(dateRevenueCost, exchangeRate)
-  ).toEqual("2814.00")
+  ).toEqual("2814.00");
 })
   
 
@@ -42,5 +42,5 @@ test('multiple days revenue and exchange rates', () => {
   ]
   expect(
     money(dateRevenueCost, exchangeRate)
-  ).toEqual("13371.35")
+  ).toEqual("13371.35");
 })
